@@ -1,5 +1,5 @@
 import java.util.*;
-class hashing {
+class hashing_num {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of array");
@@ -10,18 +10,16 @@ class hashing {
             arr[i]=sc.nextInt();
         }
         
-        int hash[]=new int[13];
-        for(int i=0;i<arr.length;i++){
+        int hash[]=new int[100000000];
+        for(int i=0;i<n;i++){
             hash[arr[i]]+=1;
         }
 
         System.out.println("Enter the number of element You want to find its repetation");
-        int q;
-        q=sc.nextInt();
+        int q=sc.nextInt();
         System.out.println("Enter the number");
         while(q--!=0){
-            int num;
-            num=sc.nextInt();
+            int num=sc.nextInt();
             System.out.println(num+" is repeating "+hash[num]+" times");
         }
     }
