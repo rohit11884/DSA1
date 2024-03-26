@@ -17,13 +17,15 @@ public class hash_map {
             for (int i = 0; i < n; i++) {
                 int key = arr[i];
                 int freq = 0;
-                if (mpp.containsKey(key))
+                if (mpp.containsKey(key)){
+
                     freq = mpp.get(key); // fetching from the map
+                }
                 freq++;
                 mpp.put(key, freq); // inseting into map
             }
 
-            System.out.println("Enter the number elements you want to finds its repetation");
+            System.out.println("Enter the number of elements you want to find its repetation");
             int q = sc.nextInt();
             System.out.println("Enter the element");
             while (q-- != 0) {
