@@ -17,7 +17,7 @@ public class bubble_sort {
         }
     }
     public static void main(String[] args) {
-        int arr[]={34,23,1,66,4,6,33,7};
+        int arr[]={1,2,3,4,5,6,7};
         int n=arr.length;
         sort(arr,n);
         for(int i=0;i<n;i++){

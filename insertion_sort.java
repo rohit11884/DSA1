@@ -7,6 +7,7 @@ public class insertion_sort {
                 arr[j] = arr[j - 1];
                 arr[j - 1] = temp;
                 j--;
+                System.out.println("run");
             }
         }
     }
