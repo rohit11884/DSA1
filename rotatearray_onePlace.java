@@ -2,7 +2,7 @@ public class rotatearray_onePlace {
     public static void main(String[] args) {
 
         //left rotate
-        int arr[]={5,2,4,1,5,4};
+        int arr[]={5,1,4,1,5,4};
         int n=arr.length;
         // int temp=arr[0];
         // for(int i=1;i<n;i++){

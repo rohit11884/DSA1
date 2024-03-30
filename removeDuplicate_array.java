@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class remoneDuplicate_array {
+public class removeDuplicate_array {
 
     // Brute force approch
     public static int Duplicate(int arr[],int n){
